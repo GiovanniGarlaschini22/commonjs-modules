@@ -11,3 +11,19 @@ import { names } from "./names.js";
 
 // importata la funzione da hobbies.js //
 import { hobby } from "./hobbies.js";
+
+// creazione funzione senza parametri //
+function people() {
+  const nameObj = names();
+  const hobbies = hobby();
+  
+  return {
+    fullName: `${nameObj.firstName} ${nameObj.lastName}`,
+    hobbies: hobbies
+  };
+};
+
+console.log(people);
+
+// funzione esportata //
+export { people };

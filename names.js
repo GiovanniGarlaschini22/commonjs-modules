@@ -11,5 +11,7 @@ function names(firstName, lastName) {
     lastName: "Garlaschini"
   };
 };
+console.log(names);
+
 // funzione esportata //
 export { names };

@@ -1,0 +1,20 @@
+{
+  "name": "commonjs-modules",
+  "version": "1.0.0",
+  "description": "Esercizio commonjs-modules",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiovanniGarlaschini22/commonjs-modules.git"
+  },
+  "author": "Giovanni Garlaschini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiovanniGarlaschini22/commonjs-modules/issues"
+  },
+  "homepage": "https://github.com/GiovanniGarlaschini22/commonjs-modules#readme"
+}

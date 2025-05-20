@@ -8,6 +8,8 @@
 function hobby(hobbyOne, hobbyTwo, hobbyThree) {
   return ["Pesca", "Lettura", "Cinema"];
 };
+console.log(hobby);
+
 
 // funzione esportata //
 export { hobby };
