@@ -6,7 +6,7 @@
 
 // creazione funzione con valori di ritorno //
 function hobby(hobbyOne, hobbyTwo, hobbyThree) {
-  return ["hobbyOne", "hobbyTwo", "hobbyThree"];
+  return ["Cinema", "Pesca", "Yoga"];
 };
 
 

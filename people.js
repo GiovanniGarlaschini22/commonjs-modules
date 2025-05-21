@@ -15,7 +15,7 @@ import hobby from "./hobbies.js";
 // creazione funzione senza parametri //
 function people() {
   const nameObj = names("Giovanni", "Garlaschini");
-  const hobbies = hobby("Cinema", "Pesca", "Yoga");
+  const hobbies = hobby();
   
   return {
     fullName: nameObj,
