@@ -6,10 +6,9 @@
 
 // creazione funzione con valori di ritorno //
 function hobby(hobbyOne, hobbyTwo, hobbyThree) {
-  return ["Pesca", "Lettura", "Cinema"];
+  return ["hobbyOne", "hobbyTwo", "hobbyThree"];
 };
-console.log(hobby);
 
 
 // funzione esportata //
-export { hobby };
+export default hobby;

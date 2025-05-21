@@ -32,5 +32,5 @@ console.log("Hello World!");
 */
 
 // importo funzione people da people.js //
-import { people } from "./people.js";
-console.log(people);
+import people from "./people.js";
+console.log(people());

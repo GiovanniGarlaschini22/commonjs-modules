@@ -7,23 +7,21 @@
 */
 
 // importata la funzione da names.js //
-import { names } from "./names.js";
+import names from "./names.js";
 
 // importata la funzione da hobbies.js //
-import { hobby } from "./hobbies.js";
+import hobby from "./hobbies.js";
 
 // creazione funzione senza parametri //
 function people() {
-  const nameObj = names();
-  const hobbies = hobby();
+  const nameObj = names("Giovanni", "Garlaschini");
+  const hobbies = hobby("Cinema", "Pesca", "Yoga");
   
   return {
-    fullName: `${nameObj.firstName} ${nameObj.lastName}`,
-    hobbies: hobbies
+    fullName: nameObj,
+    hobbies: hobbies,
   };
 };
 
-console.log(people);
-
 // funzione esportata //
-export { people };
+export default people;

@@ -7,11 +7,11 @@ Esporta la funzione dal file.
 // creazione funzione con valori di ritorno //
 function names(firstName, lastName) {
   return {
-    firstName: "Giovanni",
-    lastName: "Garlaschini"
+    firstName,
+    lastName,
   };
 };
-console.log(names);
+
 
 // funzione esportata //
-export { names };
+export default names;
